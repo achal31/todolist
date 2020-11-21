@@ -1,0 +1,77 @@
+/*----------BODY BACKGROUND------------------*/
+body{
+   
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color:#C3E0E5;
+ 
+}
+
+/*-----------WRAPPER DIV------------*/
+#wrapper{
+    
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+#wrapper>h1{
+    font-size: 60px;
+}
+
+/*-------UPDATE BUTTON----------*/
+#update{
+    display: none;
+}
+
+/*-----------LISTS--------------*/
+#pendingList{
+    text-align: right;
+    float: left;
+    width: 40%;
+    margin-top: 0%;
+}
+#completeList{
+    text-align: right;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+
+/*-------INPUT FIELD--------------*/
+#taskfield{
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid violet;
+    padding: 5px 10px;
+}
+/*-------LIST HEADING-------------*/
+h3{
+    font-size: 25px;
+}
+#taskfield,.btn,.btn-f:focus {
+    outline: none;
+}
+
+/*------DELETE/EDIT BUTTON------------*/
+.btn {
+    background-color: violet;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+
+}
+
+/*-------UPDATE/ADD BUTTON----------------*/
+.btn-f{
+    background-color: violet;
+    border: 2px;
+    border-radius: 10px;
+    color: white;
+    width: 155px;
+    padding: 6px 15px 6px 15px;
+}
